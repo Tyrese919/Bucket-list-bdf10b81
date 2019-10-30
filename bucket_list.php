@@ -1,20 +1,19 @@
 <?php
 
-echo "hoeveel items wil je toevoegen aan je bucketlist?".PHP_EOL;
+echo "Hoe veel activiteiten wil je toevoegen?".PHP_EOL;
 $nummer = readline();
 
-$bucket = "wat wil je toevoegen aan je bucket list";
+$bucket = "Wat wil je toevoegen aan jouw bucket list?";
 
-$Lijst = array();
+$lijst = array();
 
 for ($i=0; $i < $nummer ; $i++) {
  echo "$bucket".PHP_EOL;
  $wantTo = readline();
 
- array_push ( $Lijst, $wantTo );
+ array_push ( $lijst, $wantTo );
 }
 
-print_r( $Lijst );
+print_r( $lijst );
 
 ?>
-  
